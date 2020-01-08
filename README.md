@@ -2,18 +2,28 @@
 (Analogy: start menu of windows)
 
 This is a PySimpleGUI based Application Launcher.
-The Linux shell commands for "launching an APP in an custom virtual environment" are integrated in the buttons of the laucher.
-This project can be further scaled as per a users' personal needs.
+The Linux shell commands for "launching an APP in an custom virtual environment" are integrated as button events of the launcher.
+
+N.B. This is running demo version of custom launcher as per my personal needs and this project can be further scaled as per any users' personal needs.
 
 --------
 
 USAGE
-      1.  install dependency packages
-      2a. configure db with the terminal commands
-      2b. write .sh scripts for setting up virtual environments and launching a particular script (eg. spyder)
-      3.  python __init__.py
 
-
+      1. Setting up environment: 
+            pip install pySimpleGUI
+            Install any other dependency packages based on the current system
+            
+      2. Configure shell commands/app launching shell script (Update the following template files)
+            a. dbCOMMANDSignature.py with the terminal commands
+            b. write .sh scripts for setting up any customized app launches 
+               (eg. spyder in a virtual environment, follow example .sh files in this repository)
+                        
+      3. Make corresponding changes (based on step 2) for GUI buttons and button events in file: _launchUtils_dev.py 
+      
+      4. Launch the launcher from the terminal using
+            python __init__.py
+      
 
 
 
