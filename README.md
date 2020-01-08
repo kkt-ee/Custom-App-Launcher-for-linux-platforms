@@ -11,15 +11,17 @@ N.B. This is working demo version of a custom app launcher as per my personal re
 # USAGE
 
       1. Setting up environment: 
-            pip install pySimpleGUI
-            (If needed) Install any other dependency packages based on the current system by following error messages (if           any) from terminal. 
+            a. pip install pySimpleGUI
+            b. (If needed) Install any other dependency packages based on the current system
+               by following error messages (if any) from terminal. 
             
       2. Configure "terminal commands"/"app launching shell script" (Tip: Update the following template files)
             a. dbCOMMANDSignature.py with the "terminal commands"
             b. write .sh scripts for setting up any customized app launches 
                (eg. spyder in a virtual environment, follow example .sh files in this repository)
                         
-      3. Make corresponding changes (based on step 2) for "GUI buttons" and "button events" in file: _launchUtils_dev.py 
+      3. Make corresponding changes (based on step 2) for "GUI buttons" and "button events" in file: 
+            _launchUtils_dev.py 
       
       4. Launch the launcher from the terminal using
             python __init__.py
