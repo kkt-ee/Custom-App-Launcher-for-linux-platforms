@@ -5,6 +5,7 @@
 
 d = {
     'startLinuxenv': 'konsole -e /root/ai.dev/10413Prototypes/_launcherMK1.dev/bin/_startenv.sh',  # shell script
+    'GentooUpdate': 'konsole -e /root/ai.dev/10413Prototypes/_launcherMK1.dev/bin/_updateGentooScript_01.sh', # shell script
     'oa.ai': 'konsole -e /root/ai.dev/10413Prototypes/_launcherMK1.dev/bin/_launch_OA.sh',         # shell script
     'Jupyter': '/root/anaconda3/bin/jupyter notebook --allow-root',                                # shell command
     'Spyder': '/root/ai.dev/10413Prototypes/_launcherMK1.dev/bin/_launch_spyder.sh',               # shell script

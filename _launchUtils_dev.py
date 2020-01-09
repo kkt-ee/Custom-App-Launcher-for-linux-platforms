@@ -10,6 +10,7 @@ class launcher():
         # id: Window0 (FIRST WINDOW) ------< ROOT NODE WINDOW >
         self.layout0 = [[sg.Text('LAUNCHER..')],
                         [sg.Button('startLinuxenv')],
+                        [sg.Button('GentooUpdate')],
                         [sg.Button('oa.ai')],
                         [sg.Button('Jupyter')],
                         [sg.Button('Spyder')],  # xxxxxxx
