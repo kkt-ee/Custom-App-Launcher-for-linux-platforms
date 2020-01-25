@@ -3,8 +3,11 @@
 
 This is an Custom Application Launcher created with PySimpleGUI for Linux based PCs.
 The Linux shell commands and shell scripts are integrated as "button events" of the launcher.
+Useful for launching of applications in a customized environment (eg. python applications in a virtual environment).
 
 N.B. This is working demo version of a custom app launcher as per my personal requirements. This project can be further scaled as per any users' specific needs.
+
+Demonstration: https://youtu.be/25uZrlINJh4
 
 --------
 
