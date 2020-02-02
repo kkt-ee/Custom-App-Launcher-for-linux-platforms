@@ -1,5 +1,4 @@
 # Custom-App-Launcher-for-linux-PC
-(Analogy: start menu of windows)
 
 This is an Custom Application Launcher created with PySimpleGUI for Linux based PCs.
 The Linux shell commands and shell scripts are integrated as "button events" of the launcher.
