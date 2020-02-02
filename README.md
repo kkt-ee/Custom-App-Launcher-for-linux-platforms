@@ -1,6 +1,6 @@
-# Custom-App-Launcher-for-linux-PC
+# Custom-App-Launcher-for-linux-platform
 
-This is an Custom Application Launcher created with PySimpleGUI for Linux based PCs.
+This is an Custom Application Launcher created with PySimpleGUI for Linux platforms.
 The Linux shell commands and shell scripts are integrated as "button events" of the launcher.
 Useful for launching of applications in a customized environment (eg. python applications in a virtual environment).
 
