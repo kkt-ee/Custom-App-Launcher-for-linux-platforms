@@ -6,5 +6,8 @@ source /root/anaconda3/etc/profile.d/conda.sh
 
 
 conda --version
+# conda info --envs
 conda activate L3460launcher && echo 'launcher env activated...'
-python /root/ai.dev/10413Prototypes/_launcherMK1.dev/__init__.py &
+cd /root/ai.dev/10413Prototypes/c_launcherMK1.dev/v1.1/
+pwd
+python ./__init__.py &
