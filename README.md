@@ -18,12 +18,12 @@ Demonstration: https://youtu.be/25uZrlINJh4
                by following error messages (if any) from terminal. 
             
       2. Configure "terminal commands"/"app launching shell script" (Tip: Update the following template files)
-            a. dbCOMMANDSignature.py with the "terminal commands"
-            b. write .sh scripts for setting up any customized app launches 
+            a. db.py with the "terminal commands"
+            b. write x.sh scripts for setting up any customized app launches 
                (eg. spyder in a virtual environment, follow example ./bin/*.sh files in this repository)
                         
-      3. Make corresponding changes (based on step 2) for "GUI buttons" and "button events" in file: 
-            _launchUtils_dev.py 
+      3. Make window layout (based on step 2) for "GUI buttons" and "button events" in directory: 
+            windows 
             (create more layouts if needed)
       
       4. Launch the launcher from the terminal using
