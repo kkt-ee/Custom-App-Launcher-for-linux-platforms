@@ -1,0 +1,19 @@
+
+1609710345.6068025..
+
+1609712121.4077013..
+
+Mon Jan  4 03:59:07 2021..
+
+Mon Jan  4 04:12:40 2021..
+
+File "/root/ai.dev/mydev/c_launcherMK1/v1_2_dev/main.py", line 1, in <module>
+    from views.windows.window_0 import window_0
+  File "/root/ai.dev/mydev/c_launcherMK1/v1_2_dev/views/windows/window_0.py", line 3, in <module>
+
+conda 4.8.5
+launcher env activated...
+/root/ai.dev/mydev/c_launcherMK1/v1_2_dev
+L3460 ~/ai.dev/mydev/c_launcherMK1/v1_2_dev # python __init__.py 
+Traceback (most recent call last):
+
